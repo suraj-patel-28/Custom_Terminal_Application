@@ -545,10 +545,8 @@ void dt(){
 
 void startscreen(){
     system("cls");
-    printf("Nikhil Tech Terminal\n\n");
 
     dt();
-    printf("Welcome To Nikhil Terminal\n");
     printf("Type \"help\" for more things!\n\n");
 }
 
@@ -592,7 +590,7 @@ void renames(){
 
 void edit(){
     char a[100];
-    printf("Warning: Close the editor to use Nikhil Terminal\n");
+    printf("Warning: Close the editor to use Terminal\n");
     printf("Use .txt or any other extension to edit\nEx: hello.txt\n\n");
     printf("Enter file name to edit: ");
     scanf("%s", a);
